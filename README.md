@@ -1,5 +1,7 @@
 # 🚀 Single Cycle Computer in VHDL
 
+![Project Overview](docs/single_cycle_diagram.png)
+
 ## 🖥️ Overview
 This project implements a **single-cycle computer** using VHDL. The design consists of:
 - **Datapath**: Registers, ALU (function unit), multiplexers, and other components.
