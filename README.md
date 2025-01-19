@@ -27,7 +27,7 @@ cd single-cycle-computer
 ````
 2. Open the Quartus II project file located in the quartus/ directory.
 3. Use ModelSim and compile the project into a library and simulate it.
-4. Or if you know what you are doing, download the files and create your own project on quartus and simulate it in ModelSim.
+4. Or if you know what you are doing, download the files and create your own project on Quartus II and simulate it in ModelSim.
 
 ## ⚡ How to Simulate
 1. Launch ModelSim.
