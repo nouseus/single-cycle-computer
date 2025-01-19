@@ -3,14 +3,14 @@
 <img src="https://github.com/nouseus/single-cycle-computer/blob/main/docs/single_cycle_diagram.png"></p>
 
 ## 🖥️ Overview
-This project implements a **single-cycle computer** using VHDL. The design consists of:
+This project implements a **single-cycle CPU** using VHDL. The design consists of:
 - **Datapath**: Registers, ALU (function unit), multiplexers, and other components.
 - **Control Unit**: Instruction decoding and control signal generation.
 - **Memory**: Instruction and data storage.
 
 ## 📁 Directory Structure
 ```plaintext
-📂 single-cycle-computer
+📂 single-cycle-cpu
 ├── src/          # VHDL source files
 ├── quartus/      # Quartus project files
 ├── sim/          # ModelSim simulation results
