@@ -2,7 +2,7 @@
 
 ## 🖥️ Overview
 This project implements a **single-cycle computer** using VHDL. The design consists of:
-- **Datapath**: Register file, ALU, multiplexers, and other components.
+- **Datapath**: Registers, ALU (function unit), multiplexers, and other components.
 - **Control Unit**: Instruction decoding and control signal generation.
 - **Memory**: Instruction and data storage.
 
