@@ -31,7 +31,7 @@ cd single-cycle-computer
 ## ⚡ How to Simulate
 1. Launch ModelSim.
 2. Add the VHDL files from the src/ directory.
-3. Edit the code snippets marked in "reg.vhd" and "control_unit.vhd" files.
+3. Edit the code snippets marked in _reg.vhd_ and _control_unit.vhd_ files.
 4. Run simulations and observe the output.
 
 ## 🔗 References
