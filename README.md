@@ -1,6 +1,6 @@
 # 🚀 Single Cycle Computer in VHDL
-
-![Project Overview](docs/single_cycle_diagram.png)
+<p align="center">
+<img src="https://github.com/nouseus/single-cycle-computer/blob/main/docs/single_cycle_diagram.png"></p>
 
 ## 🖥️ Overview
 This project implements a **single-cycle computer** using VHDL. The design consists of:
