@@ -7,9 +7,11 @@ This project implements a **single-cycle CPU** using VHDL. The design consists o
 - **Datapath**: Registers, ALU (function unit), multiplexers, and other components.
 - **Control Unit**: Instruction decoding and control signal generation.
 - **Memory**: Instruction and data storage.
+- **Program Counter (PC)**: Holds the address of the instructions for CPU to execute.
+They are all synchronized by a clock signal.
 
-A single-cycle CPU in VHDL includes key components such as the Program Counter (PC), Instruction Memory, Instruction Register (IR), Control Unit, Data Memory, Register File, Arithmetic Logic Unit (ALU), and multiplexers, all synchronized by a clock signal.
 During execution, the CPU fetches an instruction using the PC, decodes it with the IR and Control Unit, executes the required operations via the ALU and other components, and writes back the results to the Register File or Data Memory.
+
 The Control Unit generates control signals based on the decoded instruction to manage data flow and execution sequence, aiming to perform all operations required by an instruction within a single clock cycle.
 
 ## 📁 Directory Structure
