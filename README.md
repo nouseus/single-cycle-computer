@@ -1,2 +1,40 @@
-# single-cycle-computer
-Single cycle computer written in VHDL
+# 🚀 Single Cycle Computer in VHDL
+
+## 🖥️ Overview
+This project implements a **single-cycle computer** using VHDL. The design consists of:
+- **Datapath**: Register file, ALU, multiplexers, and other components.
+- **Control Unit**: Instruction decoding and control signal generation.
+- **Memory**: Instruction and data storage.
+
+## 📁 Directory Structure
+```plaintext
+📂 single-cycle-computer
+├── src/          # VHDL source files
+├── quartus/      # Quartus project files
+├── sim/          # ModelSim simulation results
+└── docs/         # Documentation and design notes
+```
+
+## 🛠️ Tools Used
+- Quartus II: For design synthesis and FPGA implementation.
+- ModelSim: For simulating and verifying the VHDL design.
+
+## 🚧 Getting Started
+1. Clone this repository:
+````
+git clone https://github.com/your-username/single-cycle-computer.git
+cd single-cycle-computer
+````
+2. Open the Quartus II project file located in the quartus/ directory.
+3. Use ModelSim and compile the project into a library and simulate it.
+
+## ⚡ How to Simulate
+1. Launch ModelSim.
+2. Add the VHDL files from the src/ directory.
+3. Edit the code snippets marked in "reg.vhd" and "control_unit.vhd" files.
+4. Run simulations and observe the output.
+
+## 🔗 References
+- [ModelSim User Manual](https://ww1.microchip.com/downloads/aemdocuments/documents/fpga/ProductDocuments/UserGuides/modelsim_user_v11p7.pdf)
+- [Quartus II Handbook](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/qts/archives/quartusii_handbook_archive-13.1.pdf)
+- M. Morris Mano - Logic and Computer Design Fundamentals (4th edition)
