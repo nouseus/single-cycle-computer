@@ -16,8 +16,8 @@ This project implements a **single-cycle computer** using VHDL. The design consi
 ```
 
 ## 🛠️ Tools Used
-- Quartus II: For design synthesis and FPGA implementation.
-- ModelSim: For simulating and verifying the VHDL design.
+- **Quartus II:** For design synthesis and FPGA implementation.
+- **ModelSim:** For simulating and verifying the VHDL design.
 
 ## 🚧 Getting Started
 1. Clone this repository:
@@ -27,6 +27,7 @@ cd single-cycle-computer
 ````
 2. Open the Quartus II project file located in the quartus/ directory.
 3. Use ModelSim and compile the project into a library and simulate it.
+4. Or if you know what you are doing, download the files and create your own project on quartus and simulate it in ModelSim.
 
 ## ⚡ How to Simulate
 1. Launch ModelSim.
