@@ -22,6 +22,7 @@ The Control Unit generates control signals based on the decoded instruction to m
 ├── sim/          # ModelSim simulation results
 └── docs/         # Documentation and design notes
 ```
+You can find all the details in those folders.
 
 ## 🛠️ Tools Used
 - **Quartus II:** For design synthesis and FPGA implementation.
